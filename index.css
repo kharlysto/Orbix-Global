@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Instrument Serif', serif;
+  --font-sans: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-navy: #080d1a;
+  --color-navy-2: #0e1628;
+  --color-navy-3: #162035;
+  --color-navy-4: #1e2d47;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e0c278;
+  --color-gold-dim: rgba(201, 168, 76, 0.15);
+  --color-electric: #4f8ef7;
+  --color-electric-dim: rgba(79, 142, 247, 0.12);
+  --color-slate: #8899b4;
+  --color-slate-2: #b0bed4;
+  --color-chalk: #f2f4f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080d1a;
+  color: #f2f4f8;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+}
